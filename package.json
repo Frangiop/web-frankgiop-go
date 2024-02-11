@@ -2,7 +2,7 @@
   "name": "giop-web-go",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://www.frankgiop.com",
+  "homepage":"http://Frangiop.github.io/web-frankgiop-go",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
