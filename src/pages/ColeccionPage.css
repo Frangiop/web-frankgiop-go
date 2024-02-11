@@ -1,0 +1,95 @@
+.colecciones-page {
+    margin-top: 183px;
+   
+  }
+  
+  .pagina-publicaciones {
+    background-color:  #100f0ff8;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+     
+  }
+  
+  h1 {
+    font-family: 'Lora', serif; /* Aplica la fuente Lora a h1 */
+    font-weight: 400; /* Puedes ajustar el valor según tus preferencias */
+    font-style: italic; /* Estilo cursiva */
+    letter-spacing: 1.5px; /* Espaciado entre letras, ajusta según sea necesario */
+    color: #fff;
+  }
+  
+  .contenedor-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .conjunto {
+    margin: 20px;
+    width: calc(50% - 40px);
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .imagen-artistica {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .titulo-conjunto {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente negro */
+    color: #fff; /* Color blanco para el texto */
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+  }
+  
+  .titulo-conjunto.invierno {
+    /* Estilos específicos para Temporada Invierno */
+    font-family: 'Otra Fuente', sans-serif; /* Cambia "Otra Fuente" a la fuente que desees */
+    font-size: 13px; /* Tamaño de letra para Temporada Invierno */
+    font-style: italic; /* Estilo cursiva (opcional) */
+    font-weight: lighter; /* Hace el texto más delgado */
+    text-align: left; /* Centra el texto */
+    
+    /* Otros estilos... */
+  }
+  
+  .titulo-conjunto.verano {
+    /* Estilos específicos para Temporada Verano */
+    font-family: 'Otra Fuente', sans-serif; /* Cambia "Otra Fuente" a la fuente que desees */
+    font-size: 13px; /* Tamaño de letra para Temporada Verano */
+    font-style: italic; /* Estilo cursiva (opcional) */
+    font-weight: lighter; /* Hace el texto más delgado */
+    text-align:left; /* Centra el texto */
+    /* Otros estilos... */
+  }
+  .imagen-link {
+    text-decoration: none;
+    color: #333;
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .conjunto {
+      width: 100%;
+    }
+  
+    .titulo-conjunto {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,81 @@
+/* CollectionTwoComponent.css */
+.page-margin2 {
+  margin-top: 200px; /* Ajusta el valor según la altura de tu barra de navegación */
+}
+
+.title-container2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 230px;
+}
+
+.collection-title2 {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.collectionContainer2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.collectionItem2 {
+  margin: 20px;
+}
+
+.collectionImage2 {
+  overflow: hidden; /* Para asegurarse de que no haya desbordamiento del contenido */
+  background-color: #100f0ff8; /* Color de fondo para el espacio en blanco alrededor de la imagen */
+}
+
+.collectionImage2 img {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.commentary2 {
+  color: white;
+  font-size: 15px;
+  font-family: 'Didot', serif; /* Establece la fuente "Didot" para los comentarios */
+  font-style: italic;
+  width: 80%;
+  text-align: left;
+  margin-top: 8px;
+  background-color: #100f0ff8 !important;
+}
+
+/* Estilos para el fondo oscurecido */
+.darkOverlay2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro con transparencia */
+  z-index: 9998;
+}
+
+.zoomedImage2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  max-width: 90%; /* Ajusta el tamaño máximo de la imagen ampliada según sea necesario */
+  max-height: 90vh; /* Ajusta la altura máxima de la imagen ampliada según sea necesario */
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro con transparencia */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.zoomedImage2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: zoom-out; /* Cambiar el cursor a una lupa al pasar el ratón sobre la imagen ampliada */
+}
